@@ -14,9 +14,7 @@ const  App = () => {
     
 
 
-//const APP_ID="e19e806e";
-//const APP_KEY="13b1a82fb09dc446b13b4209b01afb93";
-console.log(process.env);
+
   const url= `https://api.edamam.com/search?q=${query}&app_id=${process.env.REACT_APP_APP_ID}&app_key=${process.env.REACT_APP_APP_KEY}`;
 
   useEffect(()=>{
